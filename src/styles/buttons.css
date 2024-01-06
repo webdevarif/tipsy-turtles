@@ -1,0 +1,32 @@
+.button{
+    @apply inline-flex
+    items-center
+    justify-center
+    gap-2 md:gap-3
+    px-4 md:px-5 2xl:px-6
+    rounded-[8px] 2xl:rounded-[10px]
+    text-[12px] md:text-[20px] 2xl:text-[24px]
+    h-[36px] md:h-[60px] 2xl:h-[70px]
+    shadow-[0px_15px_60px_rgba(103,172,71,0.3)]
+    transition-all
+    duration-300
+}
+
+.button img{
+    @apply w-[5px] md:w-[13px] 2xl:w-[15px];
+}
+.button--primary{
+    @apply bg-primary
+    text-white
+    hover:bg-primary-dark
+}
+
+.button--lg{
+    @apply h-[45px] md:h-[70px] 2xl:h-[88px]
+    min-w-[130px] md:min-w-[212px] 2xl:min-w-[307px]
+    gap-x-3 2xl:gap-x-5
+    text-[16px] md:text-[24px] 2xl:text-[30px]
+}
+.button--lg img{
+    @apply w-[7px] md:w-[15px] 2xl:w-[21px];
+}
