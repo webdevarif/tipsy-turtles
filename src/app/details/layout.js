@@ -1,5 +1,5 @@
-import '@/styles/globals.css';
-import Header from '@/components/Header';
+import Header from '@/components/Header'
+import Footer from '@/components/Footer';
 
 export const metadata = {
   title: 'Tipsy Turtles NextJs Template',
@@ -11,7 +11,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Header />
-        <main>{children}</main>
+        <div>{children}</div>
+        <Footer />
         </body>
     </html>
   )

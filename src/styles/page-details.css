@@ -1,0 +1,16 @@
+.accordion-body {
+    @apply
+    max-h-0
+    transition-all
+    duration-300
+    overflow-hidden
+    ease-out; /* Add ease-out for a smoother transition */
+}
+
+.accordion-body.is-open {
+    @apply
+    max-h-[24rem]
+    overflow-auto
+    transition-all
+    ease-in; /* Add ease-in for a smoother transition */
+}

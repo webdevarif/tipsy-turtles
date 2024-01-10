@@ -40,6 +40,8 @@ module.exports = {
       colors: {
         'primary': '#67AC47',
         'primary-dark': '#52863a',
+        'primary-darker': '#2F321D',
+        'grey': '#737373',
         'dark': '#232323',
       },
     },
