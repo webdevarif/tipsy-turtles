@@ -1,11 +1,11 @@
 import React from 'react';
-import Team1 from '@/assets/images/team/1.png';
-import Team2 from '@/assets/images/team/2.png';
-import Team3 from '@/assets/images/team/3.png';
-import Team4 from '@/assets/images/team/4.png';
-import Team5 from '@/assets/images/team/5.png';
-import Team6 from '@/assets/images/team/6.png';
-import Team7 from '@/assets/images/team/7.png';
+import Team1 from '@/assets/images/Team/1.png';
+import Team2 from '@/assets/images/Team/2.png';
+import Team3 from '@/assets/images/Team/3.png';
+import Team4 from '@/assets/images/Team/4.png';
+import Team5 from '@/assets/images/Team/5.png';
+import Team6 from '@/assets/images/Team/6.png';
+import Team7 from '@/assets/images/Team/7.png';
 import Image from 'next/image';
 
 
