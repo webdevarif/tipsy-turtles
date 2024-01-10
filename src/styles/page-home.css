@@ -1,10 +1,11 @@
-.section-hero{
-    
-}
+
 .section-hero__turtle-stand{
     @apply md:absolute
     md:bottom-0
     md:start-4
+}
+.section-hero__turtle-stand img{
+    @apply
     mx-auto 
     w-[60vw] max-w-[300px] md:max-w-full 
     md:max-h-[70vh]

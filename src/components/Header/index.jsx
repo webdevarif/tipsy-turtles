@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const Header = () => {
   return (
-    <header className='header fixed top-0 start-0 end-0 py-[20px] z-50'>
+    <header className='header absolute top-0 start-0 end-0 py-[20px] z-50'>
         <div className="container">
             <div className="flex items-center justify-between">
                 {/* LOGO */}
