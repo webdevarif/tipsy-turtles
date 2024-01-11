@@ -1,9 +1,7 @@
-"use client";
-
 import React, { useEffect, useState } from 'react';
-import Accordion from '@/components/Faq/Accordion';
 import FaqJson from '@/data/faq.json';
-import AccordionSkeletion from '@/components/Faq/AccordionSkeleton';
+import Accordion from './Accordion';
+import AccordionSkeletion from './AccordionSkeleton';
 
 const Faq = () => {
     const [expanded, setExpanded] = useState(0);
