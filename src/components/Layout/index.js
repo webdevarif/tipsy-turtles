@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import Header from "../Header";
+import Footer from "../Footer";
 
-const Layout = ({ children }) => (
+const Layout = ({ children, footer=true }) => (
   <div className="overflow-hidden">
     <motion.div
       initial={{ opacity: 0 }}
@@ -15,6 +16,7 @@ const Layout = ({ children }) => (
     >
       <Header />
       {children}
+      { footer && <Footer />}
     </motion.div>
   </div>
 );

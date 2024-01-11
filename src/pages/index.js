@@ -4,7 +4,7 @@ import HomeHero from "@/components/Home/Hero";
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout footer={false}>
       <HomeHero />
     </Layout>
   );
