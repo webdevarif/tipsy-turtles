@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import FaqJson from '@/data/faq.json';
-import Accordion from './Accordion';
-import AccordionSkeletion from './AccordionSkeleton';
+import Accordion from '@/components/Accordion';
+import AccordionSkeletion from '@/components/AccordionSkeleton';
 
 const Faq = () => {
     const [expanded, setExpanded] = useState(0);
