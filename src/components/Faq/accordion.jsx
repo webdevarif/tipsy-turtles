@@ -36,7 +36,7 @@ const Accordion = ({ i, expanded, item, setExpanded }) => {
             }}
             transition={{ duration: 0.8, ease: [0.04, 0.62, 0.23, 0.98] }}
           >
-            <div className="text-[16px] md:text-[22px] text-desciption pe-4 mt-5">
+            <div className="text-[16px] md:text-[22px] text-desciption pe-4 pt-5">
                 <div dangerouslySetInnerHTML={{__html:  item.answer }}></div>
             </div>
           </motion.div>
