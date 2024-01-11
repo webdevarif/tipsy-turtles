@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useEffect, useState } from 'react';
-import Accordion from './Accordion';
+import Accordion from '@/components/Faq/Accordion';
 import FaqJson from '@/data/faq.json';
-import AccordionSkeletion from './AccordionSkeleton';
+import AccordionSkeletion from '@/components/Faq/AccordionSkeleton';
 
 const Faq = () => {
     const [expanded, setExpanded] = useState(0);
@@ -20,7 +20,6 @@ const Faq = () => {
             <div className="flex items-center justify-center 2xl:justify-between mb-[50px]">
                 <h2 className='font-bold text-[40px] xl:text-[50px] 2xl:text-[120px] leading-[1] text-primary-darker'>FAQs</h2>
             </div>
-
             
             {faqs.length > 0 ? (
                     <div className="xl:columns-2 break-inside-avoid xl:gap-x-[30px] 2xl:gap-x-[80px]">
