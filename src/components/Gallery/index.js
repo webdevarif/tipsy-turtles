@@ -29,9 +29,9 @@ const Gallery = () => {
             {/* Header */}
             <div className="flex items-center justify-center 2xl:justify-between mb-[50px]">
                 <h2 className='font-bold text-[40px] xl:text-[50px] 2xl:text-[120px] leading-[1] text-primary-darker'>Mini Gallery</h2>
-                <div className="hidden 2xl:block">
+                {/* <div className="hidden 2xl:block">
                     <a href="#" className="button button--primary">View All</a>
-                </div>
+                </div> */}
             </div>
 
             {data.list && 
@@ -42,9 +42,9 @@ const Gallery = () => {
                     </div>
                 ))}
             </div>}
-            <div className='text-center 2xl:hidden pt-10'>
+            {/* <div className='text-center 2xl:hidden pt-10'>
                 <a href="#" className="button button--primary">View All</a>
-            </div>
+            </div> */}
         </div>
     </section>
   )
