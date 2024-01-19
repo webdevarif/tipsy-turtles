@@ -12,7 +12,7 @@ const Faq = () => {
     }, []); // Adding an empty dependency array to run the effect only once on mount
     
   return (
-    <section className='faq py-[100px]'>
+    <section className='faq py-[100px]' id="section-faqs">
         <div className="container">
             {/* Header */}
             <div className="flex items-center justify-center 2xl:justify-between mb-[50px]">

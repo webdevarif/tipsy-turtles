@@ -51,7 +51,7 @@ const Team = () => {
         ]
     }
   return (
-    <section className='team bg-[#FFC709] bg-opacity-25 text-dark py-[100px]'>
+    <section className='team bg-[#FFC709] bg-opacity-25 text-dark py-[100px]'  id="section-team">
         <div className="container">
             
             {/* Header */}

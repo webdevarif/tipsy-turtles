@@ -7,6 +7,10 @@
 :root{
     --ff-primary: 'Inter', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+  }
+  
 
 @import "./reset.css";
 @import "./buttons.css";

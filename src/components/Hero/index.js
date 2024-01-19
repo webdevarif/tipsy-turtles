@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className='bg-[#F9FFF6] pt-[7rem] xl:pt-[15rem] min-h-screen flex flex-col gap-y-4 px-3 overflow-hidden relative'>
+    <section className='bg-[#F9FFF6] pt-[7rem] xl:pt-[15rem] min-h-screen flex flex-col gap-y-4 px-3 overflow-hidden relative'  id="section-the-story">
         <div className="container max-w-[1000px]">
           {/* Content Card */}
           <div className="bg-primary-darker text-white text-center p-[30px] pt-[40px] relative rounded-[15px] overflow-hidden">
