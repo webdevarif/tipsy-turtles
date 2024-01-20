@@ -1,6 +1,6 @@
 import React from 'react';
 import LOGO from '@/assets/images/footer-logo.svg';
-import Instagram from '@/assets/icons/instagram.svg';
+import twitter from '@/assets/icons/twitter.svg';
 import Discord from '@/assets/icons/discord.svg';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -29,7 +29,7 @@ const Footer = () => {
                 },
                 {
                     name: "Yaad Labs",
-                    slug: "#",
+                    slug: "https://yaadlabs.io/",
                 }
             ]
         },
@@ -44,12 +44,12 @@ const Footer = () => {
             ],
             socials: [
                 {
-                    icon: Instagram,
-                    slug: "#instagram",
+                    icon: twitter,
+                    slug: "https://twitter.com/home",
                 },
                 {
                     icon: Discord,
-                    slug: "#instagram",
+                    slug: "https://discord.gg/wgstwPmz",
                 },
             ],
         }
@@ -127,7 +127,7 @@ const Footer = () => {
             <hr className='border-t border-slate-50 mt-[60px] mb-[40px]'/>
 
             <div className="copyright-content  text-[18px] xl:text-[20px] leading-[1.5]">
-                <p>© Copyright 2023 by Yaad Labs Limited. All rights Reserved.</p>
+                <p>© Copyright 2024 by Yaad Labs Limited. All rights Reserved.</p>
             </div>
         </div>
     </footer>
