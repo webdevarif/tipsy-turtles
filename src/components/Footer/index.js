@@ -127,7 +127,7 @@ const Footer = () => {
             <hr className='border-t border-slate-50 mt-[60px] mb-[40px]'/>
 
             <div className="copyright-content  text-[18px] xl:text-[20px] leading-[1.5]">
-                <p>© Copyright 2024 by Yaad Labs Limited. All rights Reserved.</p>
+                <p>© Copyright 2024 by Yaad Labs Limited. All rights Reserved. </p>
             </div>
         </div>
     </footer>
