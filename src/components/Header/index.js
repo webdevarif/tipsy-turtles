@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react';
-import Logo from '@/assets/images/logo.svg';
+import Logo from '@/assets/images/logo.webp';
 import Bottle from '@/assets/images/button-bottle.png';
 import Image from 'next/image';
 import { motion } from "framer-motion";
@@ -47,10 +47,10 @@ const Header = () => {
                                 <Image src={Bottle} alt="bottle" width={Bottle.width} height={Bottle.height} />
                             </button>
                                 {isFocus && <ul className='absolute bg-primary top-[calc(100%+1rem)] py-3 w-full rounded-[10px]'>
-                                    <li><Link href="#section-the-story" className='leading font-primary text-[12px] md:text-[20px] px-5 py-2 block transition-all duration-300 text-white text-opacity-75 hover:text-opacity-100'>The Story</Link></li>
-                                    <li><Link href="#section-mini-gallery" className='leading font-primary text-[12px] md:text-[20px] px-5 py-2 block transition-all duration-300 text-white text-opacity-75 hover:text-opacity-100'>Mini Gallery</Link></li>
-                                    <li><Link href="#section-team" className='leading font-primary text-[12px] md:text-[20px] px-5 py-2 block transition-all duration-300 text-white text-opacity-75 hover:text-opacity-100'>Team</Link></li>
-                                    <li><Link href="#section-faqs" className='leading font-primary text-[12px] md:text-[20px] px-5 py-2 block transition-all duration-300 text-white text-opacity-75 hover:text-opacity-100'>FAQs</Link></li>
+                                    <li><Link href="/details#section-the-story" className='leading font-primary text-[12px] md:text-[20px] px-5 py-2 block transition-all duration-300 text-white text-opacity-75 hover:text-opacity-100'>The Story</Link></li>
+                                    <li><Link href="/details#section-mini-gallery" className='leading font-primary text-[12px] md:text-[20px] px-5 py-2 block transition-all duration-300 text-white text-opacity-75 hover:text-opacity-100'>Mini Gallery</Link></li>
+                                    <li><Link href="/details#section-team" className='leading font-primary text-[12px] md:text-[20px] px-5 py-2 block transition-all duration-300 text-white text-opacity-75 hover:text-opacity-100'>Team</Link></li>
+                                    <li><Link href="/details#section-faqs" className='leading font-primary text-[12px] md:text-[20px] px-5 py-2 block transition-all duration-300 text-white text-opacity-75 hover:text-opacity-100'>FAQs</Link></li>
                                 </ul> }
                             </div>
                     </motion.div>

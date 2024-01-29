@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import TurtleStand from '@/assets/images/turtle-stand.png';
-import TurtleBig from '@/assets/images/turtles-big-logo.png';
-import TurtleBottles from '@/assets/images/turtles-bottles.png';
+import TurtleStand from '@/assets/images/turtle-stand.webp';
+import TurtleBig from '@/assets/images/turtles-big-logo.webp';
+import TurtleBottles from '@/assets/images/turtles-bottles.webp';
 import Bottle from '@/assets/images/button-bottle.png';
 import Link from 'next/link';
 import { motion } from "framer-motion";
@@ -76,13 +76,15 @@ const HomeHero = () => {
             }}
             className='section-hero__turtle-bottles'
             >
-        <Image 
-            src={TurtleBottles.src} 
-            width={TurtleBottles.width} 
-            height={TurtleBottles.height} 
-            alt="" 
+          <Image 
+              src={TurtleBottles.src} 
+              width={TurtleBottles.width} 
+              height={TurtleBottles.height} 
+              alt="" 
             />
         </motion.div>
+
+        
       </motion.div>
   )
 }

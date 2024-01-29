@@ -16,7 +16,7 @@
     @apply absolute
     bottom-[17vh]
     end-0 2xl:-end-[6vw]
-    max-w-[20vw] 2xl:max-w-[30vw]
+    max-w-[20vw] 2xl:max-w-[50vh]
     h-auto
     hidden md:inline-block
 }
