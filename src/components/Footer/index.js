@@ -45,7 +45,7 @@ const Footer = () => {
             socials: [
                 {
                     icon: twitter,
-                    slug: "https://twitter.com/home",
+                    slug: "https://twitter.com/tipsy__turtles",
                 },
                 {
                     icon: Discord,
