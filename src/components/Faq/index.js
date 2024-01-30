@@ -43,7 +43,7 @@ const Faq = () => {
         },
         {
             "question": "IP?",
-            "answer": "<p>Once you hold the CNFT, you are free to use the Tipsy Turtles IP for personal & even commercial purposes. More on that here: <a href='#'>terms & conditions.</a></p>"
+            "answer": "<p>Once you hold the CNFT, you are free to use the Tipsy Turtles IP for personal & even commercial purposes. More on that here: <a href='#' target='_blank' class='font-semibold underline'>Terms & conditions.</a></p>"
         },
         {
             "question": "Policy ID?",
@@ -51,7 +51,7 @@ const Faq = () => {
         },
         {
             "question": "Learn More?",
-            "answer": "<p>We’ll be updating the Tipsy Turtles website periodically. Until then, <a href='#'>Twitter</a> & <a href='https://discord.gg/wgstwPmz'>Discord</a> are your friends, anon! </p>"
+            "answer": "<p>We’ll be updating the Tipsy Turtles website periodically. Until then, <a href='https://twitter.com/tipsy__turtles' target='_blank' class='font-semibold underline'>Twitter</a> & <a href='https://discord.gg/wgstwPmz' target='_blank' class='font-semibold underline'>Discord</a> are your friends, anon! </p>"
         }
     ]
    
