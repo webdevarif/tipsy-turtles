@@ -35,6 +35,7 @@ const Accordion = ({ i, expanded, item, setExpanded }) => {
               collapsed: { opacity: 0, height: 0 },
             }}
             transition={{ duration: 0.8, ease: [0.04, 0.62, 0.23, 0.98] }}
+            className="overflow-hidden"
           >
             <div className="text-[16px] md:text-[22px] text-desciption pe-4 pt-5">
                 <div dangerouslySetInnerHTML={{__html:  item.answer }}></div>

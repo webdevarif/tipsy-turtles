@@ -11,7 +11,6 @@ import Image from 'next/image';
 
 const Team = () => {
     const data = {
-
         list: [
             {
                 thumbnail: Team1,
