@@ -49,7 +49,7 @@ const Footer = () => {
                 },
                 {
                     icon: Discord,
-                    slug: "https://discord.gg/wgstwPmz",
+                    slug: "https://discord.gg/evHwMmW3RN",
                 },
             ],
         }
