@@ -28,7 +28,7 @@ const Hero = () => {
               {/* <div className="text-[16px] xl:text-[18px] 2xl:text-[24px] font-medium leading-[28px] xl:leading-[30px] 2xl:leading-[34px] mb-4">This could just be rum talk, but apparently, the Tipsy Turtles can afford to vacation because they bought Cardano NFTs. And no… not because something “mooned” but due to their bags being actually useful. Something about… a Travel DAO?</div> */}
               {/* <div className="text-[16px] xl:text-[18px] 2xl:text-[24px] font-medium leading-[28px] xl:leading-[30px] 2xl:leading-[34px]">Update… the Tipsy Turtles were able to vacation for free or at a discount because they bought Cardano NFTs powered by TripHut. And guess what? On February 25, 2024, you can too .</div> */}
           </div>
-          <div className="text-center">
+          <div className="text-center p-4">
             <p>
                 A few CNF(T)urtles just washed up to shore; and they’re tipsy as FUD! We’re not 
                 sure how it happened, or why it happened, but it seems all they want to do is 
