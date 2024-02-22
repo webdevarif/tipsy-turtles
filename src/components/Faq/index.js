@@ -3,7 +3,7 @@ import FaqJson from '@/data/faq.json';
 import Accordion from '@/components/Accordion';
 import AccordionSkeletion from '@/components/AccordionSkeleton';
 import RoadMapImage from '@/assets/images/road-map.webp';
-import NftLicence from '@/assets/pdf/tipsy-turtles-nft-license-agreement.pdf';
+// import NftLicence from '@/assets/pdf/tipsy-turtles-nft-license-agreement.pdf';
 
 const Faq = () => {
     const [expanded, setExpanded] = useState(0);
