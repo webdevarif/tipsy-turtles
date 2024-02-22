@@ -30,7 +30,7 @@ const Gallery = () => {
             <div className="flex items-center justify-center 2xl:justify-between mb-[50px]">
                 <div>
                     <h2 className='mb-3 font-bold text-[40px] xl:text-[50px] 2xl:text-[120px] leading-[1] text-primary-darker'>Mini Gallery</h2>
-                    <h5 className='font-bold text-[24px] xl:text-[30px] 2xl:text-[30px] leading-[1] text-primary-darker'>Over 165 traits!</h5>
+                    <h5 className='font-bold text-[24px] xl:text-[30px] 2xl:text-[30px] leading-[1] text-primary-darker'>Over 165 traits for our PFP mint!</h5>
                 </div>
                 {/* <div className="hidden 2xl:block">
                     <a href="#" className="button button--primary">View All</a>

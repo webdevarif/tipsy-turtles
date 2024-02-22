@@ -1,0 +1,8 @@
+body {
+    @apply bg-[#F9FFF6] 
+    text-dark;
+  }
+  
+.text-desciption p:not(:last-child){
+  @apply mb-4;
+}

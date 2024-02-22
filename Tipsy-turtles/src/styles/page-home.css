@@ -1,0 +1,27 @@
+
+.section-hero__turtle-stand{
+    @apply md:absolute
+    md:bottom-0
+    md:start-4
+}
+.section-hero__turtle-stand img{
+    @apply
+    mx-auto 
+    w-[60vw] max-w-[300px] md:max-w-full 
+    md:max-h-[70vh]
+    md:w-auto
+}
+
+.section-hero__turtle-bottles{
+    @apply absolute
+    bottom-[17vh]
+    end-0 2xl:-end-[6vw]
+    max-w-[20vw] 2xl:max-w-[50vh]
+    h-auto
+    hidden md:inline-block
+}
+
+.section-hero__turtle-logo{
+    @apply max-w-[50vw] md:max-w-[33vw] 2xl:max-w-[40vw]
+    h-auto
+}

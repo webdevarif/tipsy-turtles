@@ -22,10 +22,13 @@ const Footer = () => {
                 {
                     name: "TripHut",
                     slug: "#",
+                    title: 'Coming soon...',
                 },
                 {
                     name: "AniMints",
-                    slug: "#animints",
+                    slug: "#",
+                    title: 'Coming soon...',
+                    
                 },
                 {
                     name: "Yaad Labs",
@@ -83,6 +86,14 @@ const Footer = () => {
                             <ul className="list-menu flex flex-col gap-5 mb-[30px] text-[18px] 2xl:text-[22px]">
                                 {
                                     data.widget_2.list.map((item, i) =>(
+                                        item.title ? 
+                                        <li key={i}>
+                                            <div className="inline-block relative group/item">
+                                                <a href={item.slug} className=''>{item.name}</a>
+                                                <div className="bg-primary text-white p-2 inline-flex items-center justify-center w-full min-w-[8rem] text-center absolute top-1/2 -translate-y-1/2 start-[calc(100%+1rem)] opacity-0 invisible group-hover/item:visible group-hover/item:opacity-100 group-hover/item:start-[calc(100%+0.5rem)] rounded transition-all duration-200 text-sm">{item.title}</div>
+                                            </div>
+                                        </li>
+                                        :
                                         <li key={i}><a href={item.slug} className=''>{item.name}</a></li>
                                     ))
                                 }
