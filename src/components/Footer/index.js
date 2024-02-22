@@ -11,8 +11,8 @@ const Footer = () => {
             logo: LOGO,
             list: [
                 {
-                    name: "Terrms & Conditions",
-                    slug: "#",
+                    name: "Terms & Conditions",
+                    slug: "/pdf/tipsy-turtles-terms-of-use.pdf",
                 }
             ]
         },
@@ -71,7 +71,7 @@ const Footer = () => {
                         { data?.widget_1?.list && 
                             <ul className="list-menu flex flex-col gap-5 mb-[30px] text-[18px] 2xl:text-[22px]">
                                 {data?.widget_1?.list?.map((item, i) =>(
-                                    <li key={i}><a href={item.slug}>{item.name}</a></li>
+                                    <li key={i}><a href={item.slug} target='_blank'>{item.name}</a></li>
                                 ))}
                             </ul>
                         }

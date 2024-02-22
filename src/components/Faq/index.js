@@ -44,7 +44,7 @@ const Faq = () => {
         },
         {
             "question": "IP?",
-            "answer": "<p>Once you hold the CNFT, you are free to use the Tipsy Turtles IP for personal & even commercial purposes. More on that here: <a href='#'>NFT License Agreement</a></p>"
+            "answer": "<p>Once you hold the CNFT, you are free to use the Tipsy Turtles IP for personal & even commercial purposes. More on that here: <a href='/pdf/tipsy-turtles-nft-license-agreement.pdf' class='underline underline-offset-3' target='_blank'>NFT License Agreement</a></p>"
         },
         {
             "question": "Royalties?",
